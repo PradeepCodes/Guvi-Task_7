@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            padding: 50px;
+    margin: 4% 2% 5% 2%;
+    border: 1px solid green;
+        }
         .name-fields{
             display: flex;
             gap: 20px;
@@ -24,11 +29,16 @@
         tr:nth-child(even) {
   background-color: #dddddd;
 }
-
+p{
+    margin-bottom: 0;
+}
+button{
+    padding: 10px;
+}
     </style>
 </head>
 <body>
-    <label for="Name">Name <span style="color: red;">*</span></label><br>
+    <label for="Name"><b>Name </b><span style="color: red;">*</span></label><br>
     <div class="name-fields">
         <input type="text" name="First" id="#">
         <input type="text" name="Last" id="#">    
@@ -38,7 +48,7 @@
     <label for="last">Last</label>
    </div>
    <br>
-   <label for="email">Email <span style="color: red;">*</span></label><br>
+   <label for="email"><b>Email</b> <span style="color: red;">*</span></label><br>
    <input type="email" name="email" id="#">
    <br>
    <p><b>Your Experience</b></p>
@@ -99,7 +109,7 @@
         <td><input type="radio" name="buyfromus" id=""></td>        
     </tr>
     <tr>
-        <td>Recommended our product to others</td>
+        <td>Recommend our <br>product to others</td>
         <td><input type="radio" name="Recommended" id=""></td>
         <td><input type="radio" name="Recommended" id=""></td>
         <td><input type="radio" name="Recommended" id=""></td>
@@ -107,7 +117,7 @@
         <td><input type="radio" name="Recommended" id=""></td>        
     </tr>
     <tr>
-        <td>Recommended our company to others</td>
+        <td>Recommend our <br> company to others</td>
         <td><input type="radio" name="RecommendedOther" id=""></td>
         <td><input type="radio" name="RecommendedOther" id=""></td>
         <td><input type="radio" name="RecommendedOther" id=""></td>
